@@ -6,3 +6,16 @@ body {
     color: grey;
     font-size: 250%;
   }  
+p { color: black; } 
+
+#mijncv { background-color: lightblue; }
+
+.mijnKlasse { font-size: 24px; } 
+
+h1, h2, h3 { color: green; } 
+
+* { margin: 0; padding: 0; }  
+
+div p { text-align: center; }  
+
+div > p { text-align: center; } 
