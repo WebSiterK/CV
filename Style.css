@@ -16,21 +16,21 @@ h1, h2, h3 { color: green; }
 
 * { margin: 0; padding: 0; }  
 
-div p { text-align: center; }  
+div p { text-align: left; }  
 
-div > p { text-align: center; } 
+div > p { text-align: left; } 
 
 .flex-container {
   display: flex;
   flex-wrap: nowrap;
-  background-color: lightcoral;
+  background-color: white;
 }
 
 .flex-container > div {
   background-color: whitesmoke;
   width: 100px;
   margin: 10px;
-  text-align: center;
+  text-align: left;
   line-height: 75px;
   font-size: 30px;
 }
